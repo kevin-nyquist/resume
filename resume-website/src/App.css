@@ -1,13 +1,19 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  min-width: 320px;
+  margin: 15px;
+  align-items: center;
+}
+
+.top-banner {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  height: 2em;
+  padding: 1em;
   will-change: filter;
   transition: filter 300ms;
 }
@@ -37,6 +43,24 @@
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  margin: auto;
+  max-height: 500px;
+  overflow: overlay;
+  scroll-behavior: auto;
+  padding: 0px 20px;
+  background-color: lightgrey;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px black;
+  
+  .res-title {
+    position: left;
+    color: black;
+    height:fit-content;
+    margin: 8px;
+  }
 }
