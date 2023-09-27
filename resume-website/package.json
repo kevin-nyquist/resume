@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://kevin-nyquist.github.io/",
+  "homepage": "http://kevin-nyquist.github.io/resume-website",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
