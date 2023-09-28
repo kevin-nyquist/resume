@@ -10,7 +10,7 @@
 
   /* navbar */
   .navbar {
-    background-color: #84c6f9;
+    background-color: rgb(221, 174, 251, 0.5);
     display: flex;
     align-items: center;
     min-height: 30px;

@@ -21,8 +21,7 @@ function NavBar() {
 
         <nav className="navbar">
 
-            {/* professional photo */}
-            <a href='/' className="logo">Kevin's Resume Website </a>
+            <a href='/' className="logo">Welcome </a>
 
             <ul className="navMenu">
             <li>

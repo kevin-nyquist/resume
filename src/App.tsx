@@ -4,12 +4,15 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import Resume from './Resume'
 import NavBar from './NavBar'
+import AboutMe from './AboutMe'
 
 function App() {
   return (
     <>
     <NavBar></NavBar>
       <div className="App">
+        <AboutMe></AboutMe>
+        <div className="down-arrow"></div>
         <div className='resume-container'>
           <h2 className='res-title'>Resume:</h2>
           <Resume></Resume>
