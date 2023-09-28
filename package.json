@@ -1,21 +1,29 @@
 {
   "name": "resume-website",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
+  "description": "Resume website",
+  "main": "index.js",
   "homepage": "https://kevin-nyquist.github.io/resume-website/",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
+  "repository": {
+    "type": "git",
+    "url": "resume-website"
+  },
+  "author": "Kevin Nyquist",
+  "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.0",
     "react-dom": "^18.2.0",
+    "vite": "^4.4.9"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
