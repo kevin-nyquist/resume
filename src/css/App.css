@@ -8,6 +8,13 @@
   flex-direction: column;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .bottom-banner {
   width: 100%;
   display: inline-flex;

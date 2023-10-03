@@ -8,7 +8,6 @@
     font-size: 18px;
   }
 
-  /* navbar */
   .navbar {
     background-color: rgb(221, 174, 251, 0.5);
     display: flex;
@@ -17,8 +16,6 @@
     height: fit-content;
   }
 
-
-  /* logo  */
   .logo {
     color: white;
     font-size: 25px;
@@ -28,8 +25,6 @@
     padding: 8px 15px;
   }
 
-
-  /* ul  */
   .navMenu {
     display: flex;
     justify-content: space-between;
@@ -45,7 +40,6 @@
 
   @media screen and (max-width: 780px){
     
-    /* navMenu */
     .navMenu{
       position: absolute;
       flex-direction: column;

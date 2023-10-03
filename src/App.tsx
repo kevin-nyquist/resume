@@ -1,30 +1,20 @@
-import { useState } from 'react'
-import React from 'react'
-import reactLogo from './assets/react.svg'
 import './css/App.css'
-import Resume from './Resume'
 import NavBar from './NavBar'
-import AboutMe from './AboutMe'
+import Home from './Home'
+import Projects from './Projects'
+import { Route, Routes } from "react-router-dom"
 
 function App() {
   return (
     <>
-    <NavBar></NavBar>
-      <div className="App">
-        <AboutMe></AboutMe>
-        <div className="down-arrow"></div>
-        <div className='resume-container'>
-          <h2 className='res-title'>Resume:</h2>
-          <Resume></Resume>
+        <NavBar />
+        <div className="container">
+          <Routes>
+            <Route path="/resume-website" element={<Home />} />
+            <Route path="/resume-website/projects" element={<Projects />} />
+          </Routes>
         </div>
-        <div className='bottom-banner'>
-          <h2> Built using React </h2>
-          <a href="https://reactjs.org" target="_blank">
-            <img src={reactLogo} className="logo react" alt="React logo" />
-          </a>
-        </div>
-      </div>
-    </>
+      </>
   )
 }
 

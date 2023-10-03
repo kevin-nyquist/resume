@@ -1,0 +1,26 @@
+.project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+    max-width: 60%;
+    background-color: rgb(0, 0, 0, 0.5);  
+    border-radius: 10px;  
+    padding: 10px;
+}
+
+.proj-pic img {
+    max-width: 350px;
+    margin: 10px;   
+    border-radius: 10px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    max-height: 575px;
+    overflow: overlay;
+    scroll-behavior: auto;
+    padding-right: 12px;
+}
