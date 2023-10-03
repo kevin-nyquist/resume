@@ -1,4 +1,4 @@
-import './AboutMe.css'
+import './css/AboutMe.css'
 import photo from './assets/prof-photo.jpeg'
 
 function AboutMe() {
@@ -14,7 +14,7 @@ function AboutMe() {
                     I'm currently pursuing a role as a Software Engineer starting June 2024. 
                 </p>
                 <p>
-                    In my free time I enjoy hiking, cooking, and woodworking.
+                    In my free time I enjoy hiking, cooking, woodworking, and photography (Like this one in the background).
                 </p>
             </div>
         </div>

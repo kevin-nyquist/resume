@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-image: url('./assets/Bee.jpeg');
+  background-image: url('../assets/Bee.jpeg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

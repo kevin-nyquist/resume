@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './NavBar.css';
+import './css/NavBar.css';
 
 function NavBar() {
     // adding the states 
