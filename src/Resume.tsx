@@ -1,4 +1,5 @@
-import resume from './assets/Resume.jpeg'
+import resume from './assets/Resume.pdf'
+import './css/Resume.css'
 
 function Resume() {
     return (
