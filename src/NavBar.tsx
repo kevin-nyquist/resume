@@ -16,6 +16,9 @@ function NavBar() {
                 <li>
                     <Link to='/resume-website/projects' className="navLink">Projects</Link>
                 </li>
+                <li>
+                    <a href='/resume-website/spotify' className="navLink">Spotify Project</a>
+                </li>
                 </ul>
             </nav>
         </header>
