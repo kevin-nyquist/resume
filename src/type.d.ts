@@ -21,3 +21,7 @@ interface Image {
     height: number;
     width: number;
 }
+
+interface Personalized_Tracks {
+    name: string;
+}

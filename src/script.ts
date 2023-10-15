@@ -9,7 +9,10 @@ if (!code) {
 } else {
     const accessToken = await getAccessToken(clientId, code);
     const profile = await fetchProfile(accessToken);
-    populateUI(profile);
+    const personalized_tracks = await fetchTracks(accessToken);
+    console.log(personalized_tracks);
+    populateUI(profile, personalized_tracks);
+    // populateUI(personalized_tracks);
 } 
 
 async function fetchProfile(token: string): Promise<UserProfile> {
@@ -20,7 +23,16 @@ async function fetchProfile(token: string): Promise<UserProfile> {
     return await result.json();
 }
 
-function populateUI(profile: UserProfile) {
+async function fetchTracks(token: string): Promise<Personalized_Tracks> {
+    const result = await fetch("https://api.spotify.com/v1/me/top/tracks?offset=5", {
+        method: "GET", headers: { Authorization: `Bearer ${token}` }
+    });
+
+    return await result.json();
+}
+
+function populateUI(profile: UserProfile, personalized_tracks: Personalized_Tracks) { //personalized_tracks: Personalized_Tracks
+    
     document.getElementById("displayName")!.innerText = profile.display_name;
     if (profile.images[0]) {
         const profileImage = new Image(200, 200);
@@ -33,6 +45,10 @@ function populateUI(profile: UserProfile) {
     document.getElementById("uri")!.setAttribute("href", profile.external_urls.spotify);
     document.getElementById("url")!.innerText = profile.href;
     document.getElementById("url")!.setAttribute("href", profile.href);
-    document.getElementById("imgUrl")!.innerText = profile.images[0]?.url ?? '(no profile image)';}
+    document.getElementById("imgUrl")!.innerText = profile.images[0]?.url ?? '(no profile image)';
+    
+    console.log(personalized_tracks.name);
+    // document.getElementById("list")!.innerHTML += '<li>' + track + '</li>';
+}
 
 export { };
