@@ -15,7 +15,7 @@ function SpotifyApp() {
         document.body.appendChild(script)
     
         return () => {
-            // clean up the script when the component in unmounted
+            // clean up the script when the component is unmounted
             document.body.removeChild(script)
         }
         }, [])
