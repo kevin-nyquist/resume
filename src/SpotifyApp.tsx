@@ -33,16 +33,17 @@ function SpotifyApp() {
                 <li>Link: <a id="url" href="#"></a></li>
                 <li>Profile Image: <span id="imgUrl"></span></li>
             </ul>
-            </section> */}
+            </section> 
             <div>
                 <h1>Top 5 Tracks Right Now:</h1>
                 <ul>
                     <p></p>
                 </ul>
             </div>
+            */}
 
-            <h1>Featured Album:</h1>
-            <iframe className="featured_album" src="https://open.spotify.com/embed/artist/1uR7zoLrSRI8bSL43OZ0GY?utm_source=generator" 
+            <h1>Featured Artist:</h1>
+            <iframe className="featured_artist" src="https://open.spotify.com/embed/artist/1uR7zoLrSRI8bSL43OZ0GY?utm_source=generator" 
             width="100%" height="352" allow="autoplay; clipboard-write; encrypted-media; fullscreen; 
             picture-in-picture" loading="lazy"></iframe>
         </div>
