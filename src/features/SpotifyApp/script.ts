@@ -1,4 +1,4 @@
-import { redirectToAuthCodeFlow, getAccessToken } from "./authCodeWithPkce";
+import { redirectToAuthCodeFlow, getAccessToken } from "./authentication/authCodeWithPkce";
 
 const clientId = "22add4a864d44f1e92603a63e567fc2d";
 const params = new URLSearchParams(window.location.search);

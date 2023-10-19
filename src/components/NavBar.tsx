@@ -1,4 +1,4 @@
-import './css/NavBar.css';
+import '../css/NavBar.css';
 import { Link } from "react-router-dom"
 
 function NavBar() {
@@ -18,6 +18,9 @@ function NavBar() {
                 </li>
                 <li>
                     <a href='/resume-website/spotify' className="navLink">Spotify Project</a>
+                </li>
+                <li>
+                    <a href='/resume-website/extracirriculars' className="navLink">Extracirriculars</a>
                 </li>
                 </ul>
             </nav>

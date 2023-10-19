@@ -1,5 +1,5 @@
-import './css/AboutMe.css'
-import photo from './assets/prof-photo.jpeg'
+import './AboutMe.css'
+import photo from '../assets/prof-photo.jpeg'
 
 function AboutMe() {
     return (

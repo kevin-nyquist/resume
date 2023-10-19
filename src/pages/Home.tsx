@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import React from 'react'
-import reactLogo from './assets/react.svg'
-import './css/App.css'
-import Resume from './Resume'
-import AboutMe from './AboutMe'
+import reactLogo from '../features/Home/assets/react.svg'
+import '../css/App.css'
+import Resume from '../components/Resume'
+import AboutMe from '../features/Home/components/AboutMe'
 
 
 function Home() {

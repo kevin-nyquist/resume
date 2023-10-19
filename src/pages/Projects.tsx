@@ -1,8 +1,9 @@
-import './css/Projects.css'
-import platform from './assets/SitS_platform.jpeg'
+import '../css/Projects.css'
+import platform from '../features/Projects/assets/SitS_platform.jpeg'
 
 function Projects() {
     return (
+    <div className="projects-page">
         <div className="project-container">
             <div className='proj-pic'>
                 <img src={platform}></img>
@@ -46,6 +47,26 @@ function Projects() {
                 </p>
             </div>
         </div>
+        <div className="project-container">
+            <div className='proj-pic'>
+                <iframe className="figma" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fl1KDACe5o4A8oKVqKu2lma%2FMilestone-3-Part-B%3Ftype%3Ddesign%26node-id%3D263%253A2%26t%3Dl8VfEwnCCR9MQVoN-1" allowFullScreen></iframe>
+            </div>
+            <div className="description">
+                <h2>
+                    UX Redesign RampantStrategy
+                </h2>
+                <h4>
+                    Description
+                </h4>
+                <p>
+                Educational technology is meant to aid in student learning and interaction with the instructor, but Rampant Strategy, a tool for educational technology, fails to facilitate communication effectively.
+                In response to this, we created a new, accessible website experience to foster a collaborative learning environment and promote clear communication between instructor and student.
+                    For futher detail check out the webiste:
+                    <a href="http://kevin-nyquist@github.io/Human_Computer_Interaction_Research_Website/">HCI Project Website</a>
+                </p>
+            </div>
+    </div>
+    </div>
     )
 }
 

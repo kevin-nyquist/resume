@@ -1,12 +1,12 @@
 import { useEffect } from 'react'
-import './css/Spotify.css'
+import '../css/Spotify.css'
 
 function SpotifyApp() {
     useEffect(() => {
         const script = document.createElement("script")
     
         script.src =
-            "src/script.ts"
+            "src/features/SpotifyApp/script.ts"
 
         script.async = true
         
