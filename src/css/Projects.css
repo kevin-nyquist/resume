@@ -16,6 +16,11 @@
     padding: 10px;
 }
 
+.proj-pic {
+    display: flex;
+    align-items: center;
+}
+
 .proj-pic img {
     max-width: 350px;
     margin: 10px;   
