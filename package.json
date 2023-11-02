@@ -1,8 +1,8 @@
 {
   "name": "resume-website",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Resume website",
-  "main": "index.js",
+  "main": "index.html",
   "homepage": "https://kevin-nyquist.github.io/resume-website/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
