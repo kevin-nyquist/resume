@@ -1,9 +1,40 @@
 import '../css/Projects.css'
 import platform from '../features/Projects/assets/SitS_platform.jpeg'
+import caPage from '../features/Projects/assets/Carbon_Analytics_Page.jpeg'
+import spotify_platform from '../features/Projects/assets/Spotify_Analytics_Graph.jpeg'
+
 
 function Projects() {
     return (
     <div className="projects-page">
+        <div className="project-container">
+            <div className='proj-pic'>
+                    <img src={caPage}></img>
+                </div>
+                <div className="description">
+                    <h2>
+                        Carbon Emissions Analytics Platform
+                    </h2>
+                    <h4>
+                        Description
+                    </h4>
+                    <p>
+                        As part of my graduate coursework, I led a group of 4 students in the full-stack
+                        developement of a comprehensive Carbon Analytics Platform. This platform was meticulously 
+                        developed using Docker containerization, ensuring extensibility and simplified deployment.
+                        My leadership was instrumental in delivering a user-friendly front-end 
+                        interface, enhancing accessibility and usability, and in orchestrating the integration of 
+                        engineering contributions into a cohesive platform using Git. The platform design supports 
+                        analytics vizualization for companies intending to better manage their carbon emissions.  
+                    </p>
+                    <h4>
+                        Technical Skills
+                    </h4>
+                    <p>
+                        Relational Database Design, PostgreSQL, FastAPI Rest API, Docker, SQLAlchemy, Python, and SQL
+                    </p>
+                </div>
+            </div>
         <div className="project-container">
             <div className='proj-pic'>
                 <img src={platform}></img>
@@ -49,6 +80,39 @@ function Projects() {
         </div>
         <div className="project-container">
             <div className='proj-pic'>
+                <img src={spotify_platform}></img>
+            </div>
+            <div className="description">
+                <h2>
+                    Spotify Song Popularity Analytics
+                </h2>
+                <h4>
+                    Description
+                </h4>
+                <p>
+                    I executed API requests to Spotify's WebAPI to create a dataset of popular songs on the platform. 
+                    With that data I was able to train SVM and Random Forest machine learning models to determine 
+                    the relation between certain attributes like 'danceability','energy', and 'valence' and a song's 
+                    popularity. With this I experimented with various techniques such as kernel selection, parameter 
+                    tuning, cross-validation, feature selection, bootstrapping, and ensemble methods to improve the 
+                    generalization of the models. I also preformed visualization techniques on my findings to better
+                    present my results.
+
+                </p>
+                <h4>
+                    Technical Skills
+                </h4>
+                <p>
+                    ML Tools: Scikit-learn, Matplotlib, NumPy, and Pandas
+                </p>
+                <p>
+                    Juypter Notebook, Python, Anaconda, Rest API, SVM, and Random Forest
+                </p>
+                
+            </div>
+        </div>
+        <div className="project-container">
+            <div className='proj-pic'>
                 <iframe className="figma" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fl1KDACe5o4A8oKVqKu2lma%2FMilestone-3-Part-B%3Ftype%3Ddesign%26node-id%3D263%253A2%26t%3Dl8VfEwnCCR9MQVoN-1" allowFullScreen></iframe>
             </div>
             <div className="description">
@@ -65,7 +129,7 @@ function Projects() {
                     <a href="http://kevin-nyquist@github.io/Human_Computer_Interaction_Research_Website/">HCI Project Website</a>
                 </p>
             </div>
-    </div>
+        </div>
     </div>
     )
 }
