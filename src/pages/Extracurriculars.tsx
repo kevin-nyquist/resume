@@ -4,7 +4,7 @@ import ccpm from '../assets/CCMP.jpeg'
 import atc from '../assets/ATC.jpeg'
 
 
-function Extracirriculars() {
+function Extracurriculars() {
     return (
     <div className="projects-page">
         <div className="project-container">
@@ -19,7 +19,7 @@ function Extracirriculars() {
                     Serve as the current offensive coordinator, leading team strategy and setting team goals. 
                 </p>
                 <p>
-                    Former Event Coordinator and Captain (2022-2023) where I led team events, aquired team sponsorships, and 
+                    Former Event Coordinator and Captain (2022-2023) where I led team events, acquired team sponsorships, and 
                     independently managed a travel budget exceeding $35,000 and organized cross-country team travel. In Spring of
                     2023 after a 13-1 season we successfully made it to the second round of the final tournament in Round Rock, TX, 
                     having not been to the tournament in over 10 years. 
@@ -42,7 +42,7 @@ function Extracirriculars() {
                 <p>
                     I've been a part of the program since my Freshman year at UGA, seeking to inspire my mentees to 
                     dream big and work hard to achieve their goals. For more information visit their website: 
-                    <a href="https://www.clarkecountymentorprogram.org/">Clarke Country Mentor Program</a>
+                    <a href="https://www.clarkecountymentorprogram.org/">Clarke County Mentor Program</a>
                 </p>
             </div>
         </div>
@@ -65,4 +65,4 @@ function Extracirriculars() {
     )
 }
 
-export default Extracirriculars
+export default Extracurriculars

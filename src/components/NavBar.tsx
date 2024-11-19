@@ -17,7 +17,7 @@ function NavBar() {
                     <Link to='/resume-website/projects' className="navLink">Projects</Link>
                 </li>
                 <li>
-                    <a href='/resume-website/extracirriculars' className="navLink">Extracirriculars</a>
+                    <a href='/resume-website/extracurriculars' className="navLink">Extracurriculars</a>
                 </li>
                 </ul>
             </nav>

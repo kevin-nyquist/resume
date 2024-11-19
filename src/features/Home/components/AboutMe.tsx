@@ -10,8 +10,8 @@ function AboutMe() {
             </div>
             <div className="bio">
                 <p>
-                    Hello, I'm a graduate student graduating in May 2024 from the University of Georgia. 
-                    I'm currently pursuing a role as a Software Engineer starting June 2024. 
+                    Hello, I graduated from the University of Georgia with a MS and BS in Computer Science, 
+                    and I'm currently pursuing technology roles involved with Software Development and Solution or Data Engineering. 
                 </p>
                 <p>
                     In my free time I enjoy hiking, cooking, woodworking, and photography (Like this one in the background).
